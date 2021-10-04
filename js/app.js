@@ -1,9 +1,12 @@
+// !menu
 const hamburger = document.querySelector(".hamburger");
 const navlist = document.querySelector(".nav-links");
 
 hamburger.addEventListener("click", () => {
   navlist.classList.toggle("show");
 });
+
+// !slider code
 
 const leftbtn = document.getElementById("left");
 const rightbtn = document.getElementById("right");
@@ -22,7 +25,7 @@ function setImage() {
   h1.innerHTML = h1s[i];
   p.innerHTML = ps[i];
 }
-var time = 2000;
+var time = 3000;
 window.onload = slideImage;
 function slideImage() {
   if (i < imgs.length - 1) {

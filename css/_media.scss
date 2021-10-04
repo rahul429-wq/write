@@ -5,7 +5,11 @@
 }
 @media screen and (min-width: 768px) {
   //! nav
+  section {
+    min-height: 90vh !important;
+  }
   nav {
+    padding: 0px 40px !important;
     .hamburger {
       display: none;
     }
@@ -32,6 +36,99 @@
 
     &_right {
       width: 50%;
+    }
+  }
+  .sec2 {
+    &_cards {
+      display: flex !important;
+      justify-content: center !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      // flex-wrap: wrap;
+      flex-direction: row !important;
+      &_one {
+        width: 25% !important;
+        margin-right: 10px !important;
+        margin-bottom: 0px !important;
+        min-height: 40vh !important;
+      }
+      &_two {
+        width: 25% !important;
+        margin-right: 10px !important;
+        margin-bottom: 0px !important;
+        min-height: 40vh !important;
+      }
+      &_three {
+        width: 25% !important;
+        margin-right: 10px !important;
+        margin-bottom: 0px !important;
+        min-height: 40vh !important;
+      }
+    }
+  }
+
+  .sec3 {
+    .left {
+      left: -65% !important;
+      padding: 25px !important;
+    }
+    .right {
+      right: -65% !important;
+      padding: 25px !important;
+    }
+  }
+  .sec4 {
+    &_form {
+      &_wrapper1 {
+        width: 80% !important;
+      }
+      &_wrapper2 {
+        width: 80% !important;
+      }
+      &_wrapper3 {
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  //! nav
+  section {
+    min-height: 90vh !important;
+  }
+  nav {
+    padding: 0px 70px;
+    .hamburger {
+      display: none;
+    }
+    .burger {
+      display: none !important;
+    }
+    ul {
+      width: auto !important;
+      display: block;
+      display: flex !important;
+      background-color: transparent !important  ;
+
+      li {
+        border-bottom: none !important;
+      }
+    }
+  }
+  //   !sec-1
+  .sec1 {
+    flex-direction: row !important;
+    &_left {
+      width: 50%;
+    }
+
+    &_right {
+      display: flex;
+      justify-content: flex-start;
+      width: 50%;
+      padding-left: 50px !important;
     }
   }
   .sec2 {
