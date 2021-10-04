@@ -59,4 +59,34 @@
       }
     }
   }
+
+  .sec3 {
+    .left {
+      left: -65% !important;
+      padding: 25px !important;
+    }
+    .right {
+      right: -65% !important;
+      padding: 25px !important;
+    }
+  }
+  .sec4 {
+    &_form {
+      &_wrapper1 {
+        width: 80% !important;
+      }
+      &_wrapper2 {
+        width: 80% !important;
+      }
+      &_wrapper3 {
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .btn {
+        // width: 10% !important;
+        // margin: left;
+      }
+    }
+  }
 }

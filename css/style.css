@@ -176,6 +176,29 @@ body {
     margin-right: 10px !important;
     margin-bottom: 0px !important;
   }
+  .sec3 .left {
+    left: -65% !important;
+    padding: 25px !important;
+  }
+  .sec3 .right {
+    right: -65% !important;
+    padding: 25px !important;
+  }
+  .sec4_form_wrapper1 {
+    width: 80% !important;
+  }
+  .sec4_form_wrapper2 {
+    width: 80% !important;
+  }
+  .sec4_form_wrapper3 {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 body {
@@ -535,6 +558,12 @@ section {
   margin-bottom: 20px;
 }
 
+.sec4_form_wrapper2 {
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .sec4_form .txt1,
 .sec4_form .txt2 {
   width: 100%;
@@ -555,7 +584,6 @@ section {
 
 .sec4_form .btn {
   border-radius: 5px;
-  width: 80%;
   padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */

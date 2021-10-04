@@ -257,6 +257,12 @@ section {
       width: 100%;
       margin-bottom: 20px;
     }
+    &_wrapper2 {
+      // background-color: aliceblue;
+      border-bottom: 1px solid $white;
+      width: 100%;
+      margin-bottom: 20px;
+    }
 
     .txt1,
     .txt2 {
@@ -277,7 +283,7 @@ section {
     .btn {
       border-radius: 5px;
 
-      width: 80%;
+      // width: 80%;
       padding: 10px;
     }
   }
