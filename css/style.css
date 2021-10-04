@@ -371,6 +371,8 @@ nav ul li {
 }
 
 nav ul li a {
+  -webkit-transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   font-style: bold;
   width: 100%;
   display: block;

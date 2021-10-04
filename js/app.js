@@ -1,10 +1,29 @@
 // !menu
+
+const lis = document.querySelectorAll(".nav-links li");
+// console.log(lis);
 const hamburger = document.querySelector(".hamburger");
 const navlist = document.querySelector(".nav-links");
+//
 
 hamburger.addEventListener("click", () => {
   navlist.classList.toggle("show");
 });
+
+document.onclick = function (e) {
+  // console.log(e.target.id);
+  if (
+    e.target.id == "one" ||
+    e.target.id == "two" ||
+    e.target.id == "three" ||
+    e.target.id == "four"
+  ) {
+    // console.log("hello");
+    navlist.classList.toggle("show");
+  } else {
+    console.log("fellow");
+  }
+};
 
 // !slider code
 
