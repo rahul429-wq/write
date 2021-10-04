@@ -1,0 +1,64 @@
+// @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+
+$primary: black;
+$secondary: white;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabriela", serif;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: $secondary;
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.align-left {
+  align-items: flex-start;
+}
+.align-right {
+  align-items: flex-end;
+}
+.flex-dir-col {
+  flex-direction: column;
+}
+.flex-dir-row {
+  flex-direction: row;
+}
+.m-auto {
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+  flex-flow: wrap;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
